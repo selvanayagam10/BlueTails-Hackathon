@@ -1,0 +1,25 @@
+{
+  "required" : [ "ContactListData", "ReceiverEmail" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "ContactListData" : {
+      "title" : "Contact List Data",
+      "description" : "List of \"Name||UnifiedID\" strings for all qualifying Contacts",
+      "maxItems" : 2000,
+      "items" : {
+        "lightning:type" : "lightning__textType"
+      },
+      "lightning:type" : "lightning__listType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "ReceiverEmail" : {
+      "title" : "Receiver Email",
+      "description" : "The fixed email address of the user receiving the report",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

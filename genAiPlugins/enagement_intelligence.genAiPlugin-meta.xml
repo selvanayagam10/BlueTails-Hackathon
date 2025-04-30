@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>Category:
+→ Customer Intelligence / CRM Automation / Lead Scoring
+
+Type:
+→ System-Driven Automation (Batch / Scheduled)
+
+Applies To:
+→ Contacts, Leads, Opportunities, Campaign Members</description>
+    <developerName>enagement_intelligence</developerName>
+    <genAiPluginInstructions>
+        <description>Use this topic when:
+
+Your automation involves Engagement Score, behavioral triggers, or product usage indicators.
+
+The purpose of the action is to highlight, flag, or route customers based on activity level.
+
+You are surfacing high-touch Contacts or Leads for follow-up via:
+
+Custom Apex Email
+
+Prompt Builder drafts
+
+Internal dashboards or queues</description>
+        <developerName>instruction_usethistop0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_usethistop0</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>enagement intelligence</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>The Engagement Intelligence topic refers to actions, prompts, or automations that are based on customer or lead activity signals, behavioral patterns, or engagement scores.
+
+This topic is used to classify automation that surfaces high-intent individuals, helping internal users (Sales, Marketing, Service) to prioritize outreach, nudge decision-making, or trigger personalized communications.
+
+Actions under this topic typically analyze:
+
+Clicks, logins, session counts
+
+Cart interactions
+
+Email opens / campaign engagement
+
+In-app behavior or survey responses
+
+Custom engagement scores
+
+These are proactive, insight-based systems to drive smart follow-up.</scope>
+</GenAiPlugin>

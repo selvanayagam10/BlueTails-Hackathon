@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>tZbTRiweGuQb3xM4weCM59l3cUHNBhx9s6iYO1Z9ZSc=_1</activeVersionIdentifier>
+    <developerName>Generate_Cart_Recovery_Email</developerName>
+    <masterLabel>Generate Cart Recovery Email</masterLabel>
+    <relatedEntity>Contact</relatedEntity>
+    <templateVersions>
+        <content>Create a warm, personalized email to the customer using the following inputs:
+- {!$Input:Contact.Name}: Greet them.
+- Cart Products: Mention the items they left in their cart.
+- Discount Offer: Inform about a special offer to complete the purchase.
+- Purchase Link: Provide a direct link to complete their checkout.
+
+Keep the email short (under 200 words), action-driven, and friendly. Mention urgency subtly (e.g., &quot;Don&apos;t miss out!&quot;). Close with a warm message.
+
+</content>
+        <inputs>
+            <apiName>Sender</apiName>
+            <definition>SOBJECT://User</definition>
+            <referenceName>Input:Sender</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>Recipient</apiName>
+            <definition>SOBJECT://Contact</definition>
+            <referenceName>Input:Recipient</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>RelatedObject</apiName>
+            <definition>SOBJECT://Contact</definition>
+            <referenceName>Input:Contact</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>tZbTRiweGuQb3xM4weCM59l3cUHNBhx9s6iYO1Z9ZSc=_1</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__salesEmail</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>

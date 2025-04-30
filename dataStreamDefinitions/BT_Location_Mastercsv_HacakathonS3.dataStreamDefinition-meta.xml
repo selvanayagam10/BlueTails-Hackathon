@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataStreamDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <areHeadersIncludedInFile>false</areHeadersIncludedInFile>
+    <bulkIngest>true</bulkIngest>
+    <creationType>Custom</creationType>
+    <dataConnector>HacakathonS3</dataConnector>
+    <dataConnectorType>AwsS3</dataConnectorType>
+    <dataPlatformDataSetItemName>CONNECTORSFRAMEWORK</dataPlatformDataSetItemName>
+    <dataSource>AwsS3_HacakathonS3</dataSource>
+    <isLimitedToNewFiles>false</isLimitedToNewFiles>
+    <isMissingFileFailure>false</isMissingFileFailure>
+    <masterLabel>BT_Location_Master.csv HacakathonS3</masterLabel>
+    <mktDataLakeObject>BT_Location_Mastercsv_HacakathonS3__dll</mktDataLakeObject>
+    <mktDataTranObject>BT_Location_Mastercsv_HacakathonS3</mktDataTranObject>
+    <parameters>
+        <fullName>BT_Location_Mastercsv_HacakathonS3_delimiter</fullName>
+        <paramName>delimiter</paramName>
+        <value>,</value>
+    </parameters>
+    <parameters>
+        <fullName>BT_Location_Mastercsv_HacakathonS3_failWhenNoData</fullName>
+        <paramName>failWhenNoData</paramName>
+        <value>false</value>
+    </parameters>
+    <parameters>
+        <fullName>BT_Location_Mastercsv_HacakathonS3_fileName</fullName>
+        <paramName>fileName</paramName>
+        <value>BT_Location_Master.csv</value>
+    </parameters>
+    <parameters>
+        <fullName>BT_Location_Mastercsv_HacakathonS3_fileType</fullName>
+        <paramName>fileType</paramName>
+        <value>CSV</value>
+    </parameters>
+    <parameters>
+        <fullName>BT_Location_Mastercsv_HacakathonS3_headerlessRetrievalEnabled</fullName>
+        <paramName>headerlessRetrievalEnabled</paramName>
+        <value>false</value>
+    </parameters>
+</DataStreamDefinition>
